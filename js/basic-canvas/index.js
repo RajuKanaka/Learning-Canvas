@@ -1,5 +1,5 @@
 import { basicRect, clearRect } from './rect/basic-rect.js';
-import { drawRandomShape, drawTrapezoid } from './draw/index.js';
+import { drawRandomShape, drawTrapezoid, drawRombus } from './draw/index.js';
 const initailizeCanvas = (ctx) => {
   ctx.fillStyle = '#fff';
   // fillStyle: the color or style to use inside shapes.
@@ -15,4 +15,5 @@ export {
   clearRect,
   drawRandomShape,
   drawTrapezoid,
+  drawRombus,
 };

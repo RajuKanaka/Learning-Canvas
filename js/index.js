@@ -3,6 +3,7 @@ import {
   basicRect,
   drawRandomShape,
   drawTrapezoid,
+  drawRombus,
 } from './basic-canvas/index.js';
 
 const canvas = document.getElementById('basic_canvas');
@@ -15,3 +16,4 @@ initailizeCanvas(ctx);
 basicRect(ctx);
 drawRandomShape(ctx);
 drawTrapezoid(ctx, 750, 50, 150);
+drawRombus(ctx, 50, 250, 150);

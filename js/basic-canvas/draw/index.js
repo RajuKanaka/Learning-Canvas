@@ -20,3 +20,13 @@ export const drawTrapezoid = (ctx, x, y, size) => {
   ctx.fill();
   ctx.closePath();
 };
+
+export const drawRombus = (ctx, x, y, size) => {
+  ctx.beginPath();
+  ctx.moveTo(x, y + size / 2);
+  ctx.lineTo(x + size / 2, y);
+  ctx.lineTo(x + size, y + size / 2);
+  ctx.lineTo(x + size / 2, y + size);
+  ctx.fill();
+  ctx.closePath();
+};
