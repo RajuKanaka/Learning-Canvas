@@ -30,3 +30,15 @@ export const drawRombus = (ctx, x, y, size) => {
   ctx.fill();
   ctx.closePath();
 };
+
+export const drawHexagon = (ctx, x, y, size) => {
+  ctx.beginPath();
+  ctx.moveTo(x, y + size / 2);
+  ctx.lineTo(x + size / 4, y);
+  ctx.lineTo(x + size * 0.75, y);
+  ctx.lineTo(x + size, y + size / 2);
+  ctx.lineTo(x + size * 0.75, y + size);
+  ctx.lineTo(x + size / 4, y + size);
+  ctx.fill();
+  ctx.closePath();
+};

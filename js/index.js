@@ -4,6 +4,7 @@ import {
   drawRandomShape,
   drawTrapezoid,
   drawRombus,
+  drawHexagon,
 } from './basic-canvas/index.js';
 
 const canvas = document.getElementById('basic_canvas');
@@ -17,3 +18,4 @@ basicRect(ctx);
 drawRandomShape(ctx);
 drawTrapezoid(ctx, 750, 50, 150);
 drawRombus(ctx, 50, 250, 150);
+drawHexagon(ctx, 300, 250, 150);
